@@ -17,7 +17,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
     let mut stdin = BufReader::new(stdin);
     let mut user_input = String::new();
 
-    println!("\n\nConnected to chat server!!!Type your message");
+    println!("\n\nConnected to chat server!\nPlease enter your username:    ");
 
     loop {
         tokio::select! {
